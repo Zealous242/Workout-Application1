@@ -16,3 +16,31 @@ C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication\Worko
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication\WorkoutApplication\obj\Debug\MVVM\View\WeeklyCalendarView.baml
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication\WorkoutApplication\obj\Debug\WorkoutApplication.exe
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication\WorkoutApplication\obj\Debug\WorkoutApplication.pdb
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\bin\Debug\WorkoutApplication.exe.config
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\bin\Debug\WorkoutApplication.exe
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\bin\Debug\WorkoutApplication.pdb
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.csproj.AssemblyReference.cache
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\Theme\TextboxTheme.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MainWindow.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\CalendarView.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\HomeView.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\WeeklyCalendarView.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\App.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication_MarkupCompile.cache
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication_MarkupCompile.lref
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\App.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MainWindow.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\CalendarView.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\HomeView.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\WeeklyCalendarView.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.g.resources
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.Properties.Resources.resources
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.csproj.GenerateResource.cache
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.csproj.CoreCompileInputs.cache
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.exe
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\WorkoutApplication.pdb
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\WorkoutsView.g.cs
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\WorkoutsView.baml

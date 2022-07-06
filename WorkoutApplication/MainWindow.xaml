@@ -38,12 +38,11 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-            
-                <Border Background="#4da6ff" Grid.Row="0" Grid.ColumnSpan="2">
-            <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
-                
-            </StackPanel>
-            </Border>
+            <!--Style the top two rows-->
+            <Border Background="#4da6ff" Grid.Row="0" Grid.ColumnSpan="2"/>
+            <Border Background="#000099" Grid.Row="1" Grid.ColumnSpan="2"/>
+
+
             <!--Add a logo to the form-->
             <TextBlock Text="Workout Planner"
                        Grid.Row="1"
@@ -55,7 +54,7 @@
                        Foreground="White"
                        Margin="5"/>
 
-            <!--Create the menu-->
+            <!--Create the menu/navigation bar-->
             <StackPanel Grid.Row="2" Margin="0,15,0,0">
                 <RadioButton Content="Home"
                              Height="50"
@@ -77,13 +76,15 @@
                              Foreground="White"
                              FontSize="25"
                              HorizontalAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding CalendarViewCommand}"/>
                 <RadioButton Content="Workouts"
                              Height="50"
                              Foreground="White"
                              FontSize="25"
                              HorizontalAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding WorkoutsViewCommand}"/>
                 <RadioButton Content="Stretches"
                              Height="50"
                              Foreground="White"

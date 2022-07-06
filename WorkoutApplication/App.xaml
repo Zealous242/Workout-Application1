@@ -21,6 +21,21 @@
 
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:WeeklyCalendarViewModel}">
+                <view:WeeklyCalendarView/>
+
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:WorkoutsViewModel}">
+                <view:WorkoutsView/>
+
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:StretchesViewModel}">
+                <view:StretchesView/>
+
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

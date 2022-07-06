@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\App.xaml
-8-134555253
+7-1940356540
 
-191956524870
+161322352176
 13-1310406943
-MainWindow.xaml;MVVM\View\CalendarView.xaml;MVVM\View\HomeView.xaml;MVVM\View\StretchesView.xaml;MVVM\View\WeeklyCalendarView.xaml;MVVM\View\WorkoutsView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\CalendarView.xaml;MVVM\View\HomeView.xaml;MVVM\View\WeeklyCalendarView.xaml;MVVM\View\WorkoutsView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
-True
+False
 
