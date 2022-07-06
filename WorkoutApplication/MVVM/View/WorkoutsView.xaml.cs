@@ -24,5 +24,10 @@ namespace WorkoutApplication.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void RichTextBox_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+
+        }
     }
 }
