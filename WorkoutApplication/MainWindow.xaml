@@ -90,13 +90,15 @@
                              Foreground="White"
                              FontSize="25"
                              HorizontalAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding StretchesViewCommand}"/>
                 <RadioButton Content="Notes"
                              Height="50"
                              Foreground="White"
                              FontSize="25"
                              HorizontalAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding NotesViewCommand}"/>
                 <RadioButton Content="Logout"
                              Height="50"
                              Foreground="White"

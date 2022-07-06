@@ -36,6 +36,11 @@
 
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:NotesViewModel}">
+                <view:NotesView/>
+
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

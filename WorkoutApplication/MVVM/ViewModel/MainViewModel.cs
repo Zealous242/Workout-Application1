@@ -17,12 +17,20 @@ namespace WorkoutApplication.MVVM.ViewModel
 
         public RelayCommand WorkoutsViewCommand { get; set; }
 
+        public RelayCommand StretchesViewCommand { get; set; }
+
+        public RelayCommand NotesViewCommand { get; set; }
+
         public HomeViewModel HomeVm { get; set; }
 
         public CalendarViewModel CalendarVm { get; set; }
         public WeeklyCalendarViewModel WeeklyCalendarVm { get; }
 
         public WorkoutsViewModel WorkoutsVm { get; set; }
+
+        public StretchesViewModel StretchesVm { get; set; }
+
+        public NotesViewModel NotesVm { get; set; }
 
         private object _currentView;
 
@@ -42,6 +50,8 @@ namespace WorkoutApplication.MVVM.ViewModel
             CalendarVm = new CalendarViewModel();
             WeeklyCalendarVm = new WeeklyCalendarViewModel();
             WorkoutsVm = new WorkoutsViewModel();
+            StretchesVm = new StretchesViewModel(); 
+            NotesVm = new NotesViewModel(); 
 
             CurrentView = HomeVm;
 
@@ -63,6 +73,14 @@ namespace WorkoutApplication.MVVM.ViewModel
             WorkoutsViewCommand = new RelayCommand(o => 
             { 
                 CurrentView = WorkoutsVm;
+            });
+
+            StretchesViewCommand = new RelayCommand(o => { 
+                CurrentView = StretchesVm;  
+            });
+
+            NotesViewCommand = new RelayCommand(o => {
+                CurrentView = NotesVm;
             });
         }
     }
