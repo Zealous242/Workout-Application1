@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WorkoutApplication.Core
 {
-    internal class ObservableObject : INotifyPropertyChanged
+    internal class ObservableObject : INotifyPropertyChanged // The INotifyPropertyChanged is mainly used for the UI when binding
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

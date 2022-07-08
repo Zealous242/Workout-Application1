@@ -32,7 +32,7 @@ namespace WorkoutApplication.MVVM.ViewModel
 
         public NotesViewModel NotesVm { get; set; }
 
-        private object _currentView;
+        private object _currentView; //Having an underscore at the beginning of a variable name eliminates the need to use the this keyword
 
         public object CurrentView
         {

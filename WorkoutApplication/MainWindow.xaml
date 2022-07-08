@@ -6,16 +6,18 @@
         xmlns:local="clr-namespace:WorkoutApplication"
         xmlns:viewModel="clr-namespace:WorkoutApplication.MVVM.ViewModel"
         mc:Ignorable="d" 
-        Height="650" Width="950"
+        Height="800" Width="1400"
         WindowStyle="None"
         ResizeMode="CanResize"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        WindowStartupLocation="Manual" 
+        Left="0" Top="0">
 
     <Window.DataContext>
         <viewModel:MainViewModel></viewModel:MainViewModel>
     </Window.DataContext>
-    
+
     <!--Create a border and define it's properties-->
     <Border Background="#99ccff" 
             CornerRadius="10" 
@@ -25,20 +27,18 @@
         <Grid>
             <!--Add two columns-->
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="240">
-                   
-                </ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="240"/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <!--Add two rows-->
             <Grid.RowDefinitions>
-                <RowDefinition Height="25"></RowDefinition>
-                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="90"/>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-            <!--Style the top two rows-->
+            <!--Style the background of the top two rows-->
             <Border Background="#4da6ff" Grid.Row="0" Grid.ColumnSpan="2"/>
             <Border Background="#000099" Grid.Row="1" Grid.ColumnSpan="2"/>
 
@@ -61,10 +61,20 @@
                              Foreground="White"
                              FontSize="25"
                              HorizontalAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource MenuButtonTheme}" 
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
-                <RadioButton Content="Calendar"
+                             <!-- The Home radio buttons IsChecked property is set to 
+                                  true to ensure the HomeView is the first view to appear.
+                                  
+                                  The command property ensures the respective view is displayed 
+                                  when clicked. 
+                                  
+                                  The Style property is used to define the appearence of the 
+                                  radio buttons using a seperate xaml file
+                
+                             --> 
+                    <RadioButton Content="Calendar"
                              Height="50"
                              Foreground="White"
                              FontSize="25"
@@ -77,7 +87,7 @@
                              FontSize="25"
                              HorizontalAlignment="Center"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding CalendarViewCommand}"/>
+                             Command="{Binding WeeklyCalendarViewCommand}"/>
                 <RadioButton Content="Workouts"
                              Height="50"
                              Foreground="White"
@@ -112,6 +122,6 @@
                             Margin="10 10 10 10"
                             Content="{Binding CurrentView}"/>
         </Grid>
-        
+
     </Border>
 </Window>
