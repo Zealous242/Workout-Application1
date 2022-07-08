@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WorkoutApplication"
+    "\\WorkoutApplication",
+    "\\WorkoutApplication\\MVVM",
+    "\\WorkoutApplication\\MVVM\\View"
   ],
-  "SelectedNode": "\\WorkoutApplication\\MainWindow.xaml",
+  "SelectedNode": "\\WorkoutApplication\\MVVM\\View\\StretchesView.xaml",
   "PreviewInSolutionExplorer": false
 }

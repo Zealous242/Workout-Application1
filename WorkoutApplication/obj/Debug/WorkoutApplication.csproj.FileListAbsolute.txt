@@ -48,3 +48,4 @@ C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApp
 C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\StretchesView.baml
 C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\NotesView.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\MVVM\View\NotesView.baml
+C:\Users\yasum\OneDrive\Documents\Yasum\Computing\Workout-Application\WorkoutApplication\obj\Debug\Theme\WeeklyCalendarNavigationBarTheme.baml

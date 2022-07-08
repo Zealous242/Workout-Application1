@@ -17,27 +17,36 @@
                    Margin="0 0 0 0"/>
         <Grid Height="616" Width="1123">
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0">
-                <Grid>
+                <!--The following grid and radio buttons will be for the 
+                    sub-navigation bar of the weekly calendar-->
+                <Grid Height="60">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <RadioButton Grid.Column="0" Content="Monday" Height="35"/>
-                    <RadioButton Grid.Column="1" Content="Tuesday" Height="35"/>
-                    <RadioButton Grid.Column="2" Content="Wednesday" Height="35"/>
-                    <RadioButton Grid.Column="3" Content="Thursday" Height="35"/>
-                    <RadioButton Grid.Column="4" Content="Friday" Height="35"/>
-                    <RadioButton Grid.Column="5" Content="Saturday" Height="35"/>
-                    <RadioButton Grid.Column="6" Content="Sunday" Height="35"/>
+                    <RadioButton Grid.Column="0" Content="Monday" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,-1"/>
+                    <RadioButton Grid.Column="1" Content="Tuesday" Height="61" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <RadioButton Grid.Column="2" Content="Wednesday" Height="62" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <RadioButton Grid.Column="3" Content="Thursday" Height="61" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <RadioButton Grid.Column="4" Content="Friday" Height="63" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <RadioButton Grid.Column="5" Content="Saturday" Height="61" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <RadioButton Grid.Column="6" Content="Sunday" Height="61" Foreground="White"
+                                 Style="{StaticResource WeeklyCalendarNavigationButtonTheme}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 </Grid>
             </StackPanel>
