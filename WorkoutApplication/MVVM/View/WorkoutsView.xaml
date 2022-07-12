@@ -14,14 +14,14 @@
                    FontWeight="Bold"
                    HorizontalAlignment="Left"
                    Margin="0 0 0 0"/>
-        <RichTextBox Height="403" Margin="5 5 5 5" 
+        <RichTextBox Height="612" Margin="5 5 5 5" 
                      HorizontalScrollBarVisibility="Visible" 
                      VerticalScrollBarVisibility="Visible"
                      FontSize="20">
             <!--Add a scrollbard to the textbox for better usability-->
                 <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>

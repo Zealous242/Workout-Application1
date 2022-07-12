@@ -82,7 +82,6 @@ C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\Work
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\WorkoutApplication.csproj.CoreCompileInputs.cache
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\WorkoutApplication.exe
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\WorkoutApplication.pdb
-C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\ViewModel\SaturdayViewModel.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\FridayView.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\MondayView.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\SaturdayView.g.cs
@@ -90,7 +89,6 @@ C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\Work
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\ThursdayView.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\TuesdayView.g.cs
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\WednesdayView.g.cs
-C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\ViewModel\SaturdayViewModel.baml
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\FridayView.baml
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\MondayView.baml
 C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\MVVM\View\SaturdayView.baml

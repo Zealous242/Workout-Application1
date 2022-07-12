@@ -7,39 +7,65 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
+            <!--The following ensures that the styles for the navgiation bar buttons register correctly-->
+                <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Theme\MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme\WeeklyCalendarNavigationBarTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
-                <view:HomeView/>
+            <!--The following data template tags ensures that the different views maps together correctly 
+            when binding them to the navigation bar buttons-->
 
+                <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
             </DataTemplate>
 
             <DataTemplate DataType="{x:Type viewModel:CalendarViewModel}">
                 <view:CalendarView/>
-
             </DataTemplate>
 
             <DataTemplate DataType="{x:Type viewModel:WeeklyCalendarViewModel}">
                 <view:WeeklyCalendarView/>
-
             </DataTemplate>
 
             <DataTemplate DataType="{x:Type viewModel:WorkoutsViewModel}">
                 <view:WorkoutsView/>
-
             </DataTemplate>
 
             <DataTemplate DataType="{x:Type viewModel:StretchesViewModel}">
                 <view:StretchesView/>
-
             </DataTemplate>
 
             <DataTemplate DataType="{x:Type viewModel:NotesViewModel}">
                 <view:NotesView/>
+            </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:MondayViewModel}">
+                <view:MondayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:TuesdayViewModel}">
+                <view:TuesdayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:WednesdayViewModel}">
+                <view:WednesdayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ThursdayViewModel}">
+                <view:ThursdayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:FridayViewModel}">
+                <view:FridayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SaturdayViewModel}">
+                <view:SaturdayView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SundayViewModel}">
+                <view:SundayView/>
             </DataTemplate>
 
         </ResourceDictionary>

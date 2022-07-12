@@ -69,10 +69,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MVVM\ViewModel\SaturdayViewModel.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MVVM\View\CalendarView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -145,9 +141,7 @@
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MondayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\NotesViewModel.cs" />
-    <Compile Include="MVVM\ViewModel\SaturdayViewModel.xaml.cs">
-      <DependentUpon>SaturdayViewModel.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="MVVM\ViewModel\SaturdayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\StretchesViewModel.cs" />
     <Compile Include="MVVM\ViewModel\SundayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\ThursdayViewModel.cs" />
