@@ -69,7 +69,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MVVM\ViewModel\SaturdayViewModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\CalendarView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\FridayView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,11 +85,35 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\MondayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\NotesView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\SaturdayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\StretchesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\SundayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\ThursdayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\TuesdayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\WednesdayView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -108,23 +140,53 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MVVM\ViewModel\CalendarViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\FridayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\MondayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\NotesViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\SaturdayViewModel.xaml.cs">
+      <DependentUpon>SaturdayViewModel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MVVM\ViewModel\StretchesViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\SundayViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\ThursdayViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\TuesdayViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\WednesdayViewModel.cs" />
     <Compile Include="MVVM\ViewModel\WeeklyCalendarViewModel.cs" />
     <Compile Include="MVVM\ViewModel\WorkoutsViewModel.cs" />
     <Compile Include="MVVM\View\CalendarView.xaml.cs">
       <DependentUpon>CalendarView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MVVM\View\FridayView.xaml.cs">
+      <DependentUpon>FridayView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\MondayView.xaml.cs">
+      <DependentUpon>MondayView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\NotesView.xaml.cs">
       <DependentUpon>NotesView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MVVM\View\SaturdayView.xaml.cs">
+      <DependentUpon>SaturdayView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MVVM\View\StretchesView.xaml.cs">
       <DependentUpon>StretchesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\SundayView.xaml.cs">
+      <DependentUpon>SundayView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\ThursdayView.xaml.cs">
+      <DependentUpon>ThursdayView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\TuesdayView.xaml.cs">
+      <DependentUpon>TuesdayView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\WednesdayView.xaml.cs">
+      <DependentUpon>WednesdayView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\WeeklyCalendarView.xaml.cs">
       <DependentUpon>WeeklyCalendarView.xaml</DependentUpon>

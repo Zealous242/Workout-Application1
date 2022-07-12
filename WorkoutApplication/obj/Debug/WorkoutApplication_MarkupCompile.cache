@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\Workout-Application1-WeeklyCalendar\WorkoutApplication\obj\Debug\
+C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\obj\Debug\
 WorkoutApplication
 none
 false
 DEBUG;TRACE
-C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\Workout-Application1-WeeklyCalendar\WorkoutApplication\App.xaml
-10-1681137456
+C:\Users\yasum\OneDrive\Documents\Yasum\Capita Training\WorkoutApplication3\WorkoutApplication\App.xaml
+18-572119202
 
-21764455918
+34-1672759172
 13-1310406943
-MainWindow.xaml;MVVM\View\CalendarView.xaml;MVVM\View\HomeView.xaml;MVVM\View\NotesView.xaml;MVVM\View\StretchesView.xaml;MVVM\View\WeeklyCalendarView.xaml;MVVM\View\WorkoutsView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;Theme\WeeklyCalendarNavigationBarTheme.xaml;
+MainWindow.xaml;MVVM\ViewModel\SaturdayViewModel.xaml;MVVM\View\CalendarView.xaml;MVVM\View\FridayView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MondayView.xaml;MVVM\View\NotesView.xaml;MVVM\View\SaturdayView.xaml;MVVM\View\StretchesView.xaml;MVVM\View\SundayView.xaml;MVVM\View\ThursdayView.xaml;MVVM\View\TuesdayView.xaml;MVVM\View\WednesdayView.xaml;MVVM\View\WeeklyCalendarView.xaml;MVVM\View\WorkoutsView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;Theme\WeeklyCalendarNavigationBarTheme.xaml;
 
-True
+False
 

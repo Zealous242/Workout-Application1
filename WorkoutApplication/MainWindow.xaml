@@ -73,8 +73,8 @@
                                   The Style property is used to define the appearence of the 
                                   radio buttons using a seperate xaml file
                 
-                             --> 
-                    <RadioButton Content="Calendar"
+                             -->
+                <RadioButton Content="Calendar"
                              Height="50"
                              Foreground="White"
                              FontSize="25"
