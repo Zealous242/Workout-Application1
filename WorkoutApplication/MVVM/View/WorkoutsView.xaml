@@ -17,6 +17,7 @@
         <RichTextBox Height="612" Margin="5 5 5 5" 
                      HorizontalScrollBarVisibility="Visible" 
                      VerticalScrollBarVisibility="Visible"
+                     Block.LineHeight="2"
                      FontSize="20">
             <!--Add a scrollbard to the textbox for better usability-->
                 <FlowDocument>
