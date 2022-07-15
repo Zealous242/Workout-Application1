@@ -19,6 +19,7 @@
                      Block.LineHeight="2"
                      FontSize="20">
             <!--Add a scrollbard to the textbox for better usability-->
+            <!--The Block.LineHeight property ensures that theres is no spacing between lines-->
             <FlowDocument>
                 <Paragraph>
                     <Run Text=""/>
